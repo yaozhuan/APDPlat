@@ -29,7 +29,7 @@ import org.springframework.security.authentication.encoding.Md5PasswordEncoder;
 public class AuthorizationUtils {
     private static final int SPLITLENGTH=4;
     public static void main(String args[]) throws Exception {
-        String code="71F5-DA7F-495E-7F70-6D47-F3E6-3DC6-349A";
+        String code="4255-BBCA-1C8C-1DA9-BC03-EBCE-CB1F-C79B";
         String authCode=auth(code);
         System.out.println("机器码："+code);
         System.out.println("注册码："+authCode);
